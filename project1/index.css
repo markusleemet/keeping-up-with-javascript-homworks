@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.custom-container {
+    padding: 2rem;
+    background-color: lightblue;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-button{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.custom-input{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.vertical-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal-container{
+    display: flex;
+}
+
+.error-container {
+    background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.edit-user-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: auto;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    padding-right: 1.5rem;
+}
+
+.list-name-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid black;
+}
+
+.big-checkbox[type=checkbox] {
+    transform: scale(2);
+    align-self: center;
+    justify-self: center;
+}
+
+#todos-container{
+    border-bottom: 4px solid black;
+    border-top: 4px solid black;
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+
+.todo-item {
+    display: block;
+    width: 100%;
+    flex-grow: 1;
+    margin: 0.5rem 0;
+}

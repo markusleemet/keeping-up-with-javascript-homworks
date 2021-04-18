@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+}
+
+#game-board {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.row {
+    flex-basis: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.row:nth-child(2){
+    margin: 0 10px;
+}
+
+.box {
+    flex-basis: 0;
+    flex-grow: 1;
+    background-color: azure;
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.box:nth-child(2){
+    margin: 10px 0;
+}
+
+.x-sign{
+    color: red;
+}
+
+.o-sign{
+    color: black;
+}
+
+.sign{
+    font-size: 4rem;
+    margin: 0;
+}
