@@ -9,3 +9,5 @@ As a user, while adding a vehicle to the application, I want to be able to selec
 As an admin, I want that all vehicles have base information(price per hour, suitable for X persons, maximum distance without charging/fueling), and every vehicle type also has specific information to give the user the best possible overview.
 
 [![image](https://www.linkpicture.com/q/uml.png)](https://www.linkpicture.com/view.php?img=LPic6095867a1b1fe225937570)
+
+Just in case link for repository: https://github.com/markusleemet/keeping-up-with-javascript-homworks
